@@ -42,3 +42,20 @@ cd contracts
 npm install
 npx hardhat compile
 npx hardhat test
+```
+
+### 📜 Smart Contract Highlights
+
+- `registerArtist(string name)`
+- `uploadSong(string title, uint price, string ipfsHash, ...)`
+- `purchaseSong(uint songId)` — ETH-based song purchase
+- `redeemExclusiveContent(uint songId)` — SRT-based access to exclusive content
+- `rateSong(uint songId, uint rating)` — Rate a purchased song
+- `playSong(uint songId)` — Play and pay royalties
+
+## 📈 Future Plans
+
+- DAO-based community governance
+- Full web/mobile UI
+- DID-based listener verification
+- Real-world artist onboarding
